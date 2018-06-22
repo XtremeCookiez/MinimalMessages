@@ -6,7 +6,7 @@ const {app, BrowserWindow} = require('electron')
   
   function createWindow () {
     // Create the browser window.
-    win = new BrowserWindow({alwaysOnTop: true, width: 400,height: 600})
+    win = new BrowserWindow({alwaysOnTop: true, width: 400,height: 600,icon: 'icon.png'})
     win.setAlwaysOnTop(false);
     win.setMenuBarVisibility(false);
     win.setAutoHideMenuBar(true);
